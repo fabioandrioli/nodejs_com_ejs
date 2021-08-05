@@ -1,0 +1,20 @@
+{
+  "name": "nodejs_com_ejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabioandrioli/nodejs_com_ejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabioandrioli/nodejs_com_ejs/issues"
+  },
+  "homepage": "https://github.com/fabioandrioli/nodejs_com_ejs#readme"
+}
