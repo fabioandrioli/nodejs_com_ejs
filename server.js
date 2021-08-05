@@ -4,11 +4,33 @@ const app = express();
 app.set("view engine","ejs");
 
 app.get("/", (req,res) => {
-    res.render("index");
+    const items = [
+        {
+            title: "D",
+            message: "Decifrando o código ESJ"
+
+        },
+        {
+            title: "E",
+            message: "Extendendo conhecimento"
+
+        },
+        {
+            title: "M",
+            message: "Marchando ao progresso"
+
+        },
+        {
+            title: "A",
+            message: "Abrindo fronteiras"
+
+        },
+    ]
+    res.render("pages/index",{qualitys:items});
 });
 
 app.get("/sobre", (req,res) => {
-    res.render("about");
+    res.render("pages/about");
 });
 
 app.listen(8080);

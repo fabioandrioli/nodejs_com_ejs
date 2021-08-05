@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-    <%- include('head'); %>
+    <%- include('../partials/head'); %>
     <body class="container">
-        <%- include('header'); %>
+        <%- include('../partials/header', {pagina:'sobre'}); %>
         <main>
             <div class="jumbotron">
                 <h1>Sobre mim</h1>
                 <p>Sou Fábio Gilberto, desenvolvedor de sistemas online</p>
             </div>
         </main>
-        <%- include('footer');  %> 
+        <%- include('../partials/footer');  %> 
     </body>
 </html>
