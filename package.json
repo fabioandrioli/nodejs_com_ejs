@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/fabioandrioli/nodejs_com_ejs/issues"
   },
-  "homepage": "https://github.com/fabioandrioli/nodejs_com_ejs#readme"
+  "homepage": "https://github.com/fabioandrioli/nodejs_com_ejs#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
 }
